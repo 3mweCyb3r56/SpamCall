@@ -13,7 +13,7 @@ print("")
 if x=="3mweCyb3r56" and e=="emwe56":
    print('\x1b[1;33m[ Username Dan Password \x1b[1;32mBenar ]')
    time.sleep(3)
-   os.system('python2 Tool.py')
+   os.system('bash SpamCall.sh')
 else:
    print('\x1b[1;33m[ Username Dan Password\x1b[1;31m SALAH ]')
    print('\x1b[1;33m[ Silahkan Hubungi Author ]')
