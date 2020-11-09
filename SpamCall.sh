@@ -26,6 +26,7 @@ echo -e $purple"[0]"$white" Exit"
 echo
 echo
 sleep 1
+echo -e $blue
 read -p "[ Pilih Nomor ]~> " pil
 if [ $pil = "1" ]
 then
