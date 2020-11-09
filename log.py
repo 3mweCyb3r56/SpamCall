@@ -2,7 +2,7 @@ from getpass import getpass
 import os
 import time
 os.system('clear')
-print('\x1b[1;31m[ Login ]')
+os.system('figlet [ Login ]')
 print("")
 print("")
 print("")
