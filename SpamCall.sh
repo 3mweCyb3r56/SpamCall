@@ -7,6 +7,10 @@ blue='\033[1;35m'
 cyan='\033[1;36m'
 white='\033[1;37m'
 clear
+figlet "Isi Nama" | lolcat
+read -p "[ Siapa Nama Kamu? ]~> " nama
+echo -e $yellow"Selamat Datang $nama"
+clear
 figlet "Spam Call" | lolcat
 echo
 echo
@@ -18,6 +22,7 @@ echo -e $cyan"[+]------------------------------------[+]"
 echo
 echo
 sleep 1
+echo -e $cyan"[ Pengguna: $nama ]"
 echo -e $yellow"[ Spam Call ]"
 echo -e $red"By: 3mweCyb3r56"
 echo
